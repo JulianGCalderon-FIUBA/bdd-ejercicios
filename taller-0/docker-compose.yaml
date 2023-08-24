@@ -7,7 +7,6 @@ services:
       dockerfile: Dockerfile
     image: postgres:14
     container_name: bdd_postgres_db
-    restart: always
     environment:
       POSTGRES_DB: bdd_db
       POSTGRES_USER: admin
@@ -20,7 +19,6 @@ services:
   pgadmin:
     image: dpage/pgadmin4:7.5
     container_name: bdd_pg_admin
-    restart: always
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: admin
