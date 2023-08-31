@@ -5,7 +5,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: postgres:14
     container_name: bdd_postgres_db
     environment:
       POSTGRES_DB: bdd_db
@@ -22,5 +21,7 @@ services:
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: admin
+    volumes:
+      - ./data/pgadmin:/var/lib/pgadmin
     ports:
       - "5050:80"
