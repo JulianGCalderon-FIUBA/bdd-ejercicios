@@ -1,0 +1,11 @@
+INSERT INTO teams VALUES
+    ('ARGENTINA', 0, 0, 0, 0, 0, 0, 0, 0);
+	
+INSERT INTO matches VALUES
+	('ARGELIA', 'RUMANIA', 0, 0, 'Group A');
+	
+DELETE FROM teams WHERE team = 'ARGENTINA' RETURNING *;
+	
+UPDATE teams SET team = 'ARG' WHERE team = 'ARGENTINA';
+
+DELETE FROM teams WHERE team = 'CHILE' RETURNING *;
