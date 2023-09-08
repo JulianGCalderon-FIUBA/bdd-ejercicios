@@ -1,0 +1,7 @@
+directores = ρ director_id <- id directors
+objetivo = σ last_name = 'Tarantino' directores
+
+generos_polanski = π genre (directors_genres ⨝ objetivo)
+generos_director = π director_id, first_name, last_name, genre (directors_genres ⨝ directores)
+
+generos_director ÷ generos_polanski - objetivo
