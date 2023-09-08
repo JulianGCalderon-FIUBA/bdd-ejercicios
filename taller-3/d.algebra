@@ -1,0 +1,4 @@
+actores_hitler = ρ actor_id <- id σ last_name = 'Hitler' actors
+peliculas = ρ movie_id <- id movies
+
+π movies.name (roles ⨝ actores_hitler ⨯ peliculas)
