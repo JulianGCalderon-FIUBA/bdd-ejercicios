@@ -1,0 +1,4 @@
+peliculas = ρ movie_id <- id movies
+directores_woddy = ρ director_id <- id σ first_name = 'Woody' ∧ last_name = 'Allen' directors
+
+π movies.name (movies_directors ⨝ peliculas ⨝ directores_woddy)

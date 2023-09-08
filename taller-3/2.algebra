@@ -2,3 +2,4 @@ peliculas2000 = ρ movie_id <- id σ year = 2000 movies
 directores = ρ director_id <- id directors
 
 π first_name, last_name (movies_directors ⨝ peliculas2000 ⨝ directores)
+
