@@ -1,0 +1,5 @@
+anos = π year movies
+anos2 = ρ anos2 ρ year2 <- year movies
+cruz = anos ⨯ anos2
+mayores = σ year ≥ year2 cruz
+mayores ÷ anos2

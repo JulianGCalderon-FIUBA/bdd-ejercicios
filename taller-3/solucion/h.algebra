@@ -1,0 +1,4 @@
+movies2 = ρ movies2 ρ id2 <- id, year2 <- year π id, year movies
+cruz = movies ⨯ movies2
+mayores = σ year ≥ year2 cruz
+mayores ÷ movies2
