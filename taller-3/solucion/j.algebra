@@ -1,0 +1,8 @@
+actor_objetivo = π actor_id ρ actor_id <- id σ first_name ≠ 'Leo G.' ∧ last_name ≠ 'Carroll' actors
+
+director_objetivo = π director_id ρ director_id <- id σ last_name = 'Hitchcock' directors
+
+peliculas_de_director = π movie_id (movies_directors ⨝ director_objetivo)
+peliculas_de_autor = π movie_id (roles ⨝ actor_objetivo)
+
+(peliculas_de_autor ∩ peliculas_de_director) ⨝ id = movie_id movies
