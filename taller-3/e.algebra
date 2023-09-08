@@ -1,0 +1,4 @@
+generos = ρ genre π genre directors_genres
+generos_director = π director_id, genre directors_genres
+
+generos_director ÷ generos
