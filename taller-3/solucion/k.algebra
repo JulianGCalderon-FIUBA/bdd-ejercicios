@@ -1,0 +1,8 @@
+actores = ρ actor_id <- id π id actors
+roles1 = ρ movie_id1 <- movie_id ρ roles1 π actor_id, movie_id roles
+roles2 = ρ movie_id2 <- movie_id1 ρ roles2 roles1
+roles3 = ρ movie_id3 <- movie_id1 ρ roles3 roles1
+
+dos_peliculas = σ movie_id1 ≠ movie_id2 (actores ⨝ roles1 ⨝ roles2)
+tres_peliculas = σ movie_id1 ≠ movie_id3 ∧ movie_id2 ≠ movie_id3 (dos_peliculas ⨝ roles3)
+π actor_id tres_peliculas
