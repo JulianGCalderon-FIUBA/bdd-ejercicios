@@ -1,3 +1,3 @@
 cruz = movies ⨯ ρ movies2 movies
-no_mayores = π movies.id, movies.name, movies.year, movies.quality σ movies.year < movies2.year cruz
-movies - no_mayores
+no_mayores = π movies.id, movies.name σ movies.year < movies2.year cruz
+π id, name movies - no_mayores
