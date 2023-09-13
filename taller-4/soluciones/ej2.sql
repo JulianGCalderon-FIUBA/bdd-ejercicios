@@ -1,0 +1,1 @@
+select CONCAT(codigo, '.', TO_CHAR(numero, '00')) as codigo, nombre from materias;
