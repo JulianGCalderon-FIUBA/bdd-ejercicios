@@ -1,1 +1,1 @@
-select CONCAT(codigo, '.', TO_CHAR(numero, '00')) as codigo, nombre from materias;
+select concat(codigo, '.', to_char(numero, '00')) as codigo, nombre from materias;
