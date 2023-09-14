@@ -1,5 +1,5 @@
-select padron, alumnos.nombre as alumno, materias.nombre as materia 
-from notas 
-	inner join alumnos using(padron) 
-	inner join materias using(numero, codigo)
-where nota = 10;
+SELECT padron, alumnos.nombre AS alumno, materias.nombre AS materia
+FROM notas
+	JOIN alumnos USING(padron)
+	JOIN materias USING(numero, codigo)
+WHERE nota = 10;

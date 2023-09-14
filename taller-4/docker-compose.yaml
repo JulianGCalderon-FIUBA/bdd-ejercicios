@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: bdd_postgres_db
     environment:
-      POSTGRES_DB: bdd_db
+      POSTGRES_DB: Facultad
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin
     ports:

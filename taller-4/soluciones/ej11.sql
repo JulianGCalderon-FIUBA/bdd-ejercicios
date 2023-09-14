@@ -1,1 +1,6 @@
-(select padron from alumnos) except (select distinct padron from notas);
+SELECT padron 
+FROM alumnos
+EXCEPT (
+	SELECT DISTINCT padron 
+	FROM notas
+	WHERE nota IS NOT NULL);
