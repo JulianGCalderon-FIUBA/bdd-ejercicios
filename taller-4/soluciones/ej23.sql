@@ -6,5 +6,5 @@ HAVING COUNT(notas) = (
 		SELECT COUNT(notas) AS cantidad_notas
 		FROM notas
 		GROUP BY codigo, numero
-	) 
-	AS cantidad_max);
+	) AS cantidad_max
+);
