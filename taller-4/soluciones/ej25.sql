@@ -1,4 +1,5 @@
-select avg(cantidad_de_notas) from (
-	select padron, count(notas) as cantidad_de_notas from notas
-	group by padron
-) as cantidad_de_notas_por_alumno
+SELECT TRUNC(AVG(cantidad_notas), 2) AS promedio_cantidad_notas 
+FROM (
+	SELECT padron, COUNT(notas) AS cantidad_notas FROM notas
+	GROUP BY padron
+	) AS cantidad_notas;

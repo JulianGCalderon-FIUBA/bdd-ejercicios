@@ -1,10 +1,10 @@
-select codigo, numero, count(notas)
-from notas
-group by codigo, numero
-having count(notas) = (
-	select max(cantidad) from (
-		select count(notas) as cantidad
-		from notas
-		group by codigo, numero
-	) as cantidad
-)
+SELECT codigo, numero, COUNT(notas) AS notas
+FROM notas
+GROUP BY codigo, numero
+HAVING COUNT(notas) = (
+	SELECT MAX(cantidad_notas) FROM (
+		SELECT COUNT(notas) AS cantidad_notas
+		FROM notas
+		GROUP BY codigo, numero
+	) 
+	AS cantidad_max);
