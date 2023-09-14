@@ -1,7 +1,7 @@
-select padron, nombre 
-from notas inner join alumnos using(padron)
-where (codigo, numero) = (71, 14) and nota >= 4
-	and padron not in (
-		select padron from notas 
-		where (codigo, numero) = (71, 15) and nota >= 4
+SELECT padron, nombre
+FROM notas INNER JOIN alumnos USING(padron)
+WHERE (codigo, numero) = (71, 14) AND nota >= 4
+	AND padron NOT IN (
+		SELECT padron FROM notas
+		WHERE (codigo, numero) = (71, 15) AND nota >= 4
 	);

@@ -1,5 +1,4 @@
-select carreras.nombre, inscripto_en.padron
-from (select * from inscripto_en where padron > 75000) as inscripto_en
-	right outer join carreras using(codigo)
-
-	
+SELECT nombre, padron
+FROM carreras LEFT OUTER JOIN inscripto_en 
+	ON carreras.codigo = inscripto_en.codigo 
+	AND padron > 75000;

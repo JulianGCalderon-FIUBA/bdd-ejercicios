@@ -1,10 +1,12 @@
-select distinct padron 
-from notas inner join notas as notas2 using(padron, codigo, numero)
-where notas.fecha != notas2.fecha;
+SELECT DISTINCT padron
+FROM notas INNER JOIN notas AS notas2
+	USING(padron, codigo, numero)
+WHERE (notas.codigo, notas.numero) = (75,15)
+	AND notas != notas2;
 
-/*
-select padron from notas
-where notas.codigo = 75 and notas.numero = 15 
-group by padron
-having count(padron) > 1;
-*/
+SELECT DISTINCT padron FROM notas
+WHERE (codigo, numero) = (75, 15)
+GROUP BY padron
+HAVING COUNT(*) > 1;
+
+
