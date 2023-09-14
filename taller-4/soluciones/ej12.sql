@@ -1,0 +1,1 @@
+(select nombre from departamentos) union (select nombre from materias)
