@@ -1,2 +1,3 @@
-select count(distinct padron) from notas
-where nota is not null;
+SELECT COUNT(DISTINCT padron) AS alumnos_calificados
+FROM notas
+WHERE nota IS NOT NULL;

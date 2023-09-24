@@ -1,2 +1,3 @@
-select materias.nombre as materia, departamentos.nombre as departamento 
-from materias inner join departamentos using(codigo);
+SELECT materias.nombre AS materia, departamentos.nombre AS departamento
+FROM materias
+	INNER JOIN departamentos USING(codigo);

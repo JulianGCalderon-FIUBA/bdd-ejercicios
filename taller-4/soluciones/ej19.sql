@@ -1,4 +1,3 @@
-select distinct notas.padron as padron1, notas2.padron as padron2, fecha, codigo, numero
-from notas inner join notas as notas2 using(codigo, numero, fecha)
-where notas.padron < notas2.padron;
-
+SELECT notas.padron AS padron1, notas2.padron AS padron2, fecha, codigo, numero
+FROM notas INNER JOIN notas AS notas2 USING(codigo, numero, fecha)
+WHERE notas.padron < notas2.padron;

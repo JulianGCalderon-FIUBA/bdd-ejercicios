@@ -1,4 +1,3 @@
-select carreras.nombre, inscripto_en.padron
-from inscripto_en
-	right outer join carreras using(codigo)
-	
+SELECT nombre, padron
+FROM carreras LEFT OUTER JOIN inscripto_en
+	USING(codigo);

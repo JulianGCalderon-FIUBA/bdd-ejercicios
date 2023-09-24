@@ -1,1 +1,5 @@
-(select nombre from departamentos) union (select nombre from materias)
+SELECT nombre
+FROM departamentos
+UNION (
+	SELECT nombre
+	FROM materias);

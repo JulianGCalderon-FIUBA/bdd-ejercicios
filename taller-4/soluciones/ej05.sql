@@ -1,3 +1,5 @@
-select padron, nombre from alumnos
-where apellido ilike 'molina'
--- where apellido = concat('M', 'o', 'l', 'i', 'n', 'a');
+SELECT padron, nombre
+FROM alumnos
+WHERE apellido ilike 'molina';
+
+-- WHERE apellido = concat('M', 'o', 'l', 'i', 'n', 'a');

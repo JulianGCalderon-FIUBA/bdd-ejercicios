@@ -1,2 +1,3 @@
-select trunc(avg(nota), 2) from notas
-where codigo=75;
+SELECT TRUNC(AVG(nota), 2) AS promedio
+FROM notas
+WHERE codigo = 75;

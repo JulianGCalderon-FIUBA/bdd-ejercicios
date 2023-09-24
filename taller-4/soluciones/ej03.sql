@@ -1,2 +1,2 @@
-select padron, codigo, numero, fecha, nota*10 as nota
-from notas;
+SELECT padron, codigo, numero, fecha, nota * 10 AS nota
+FROM notas;

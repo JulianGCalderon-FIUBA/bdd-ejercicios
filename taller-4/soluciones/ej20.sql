@@ -1,8 +1,9 @@
-select departamentos.nombre, departamentos.codigo, 
-	count(distinct materias.numero) as materias,
-	count(notas) as notas
-from departamentos 
-	inner join materias using(codigo)
-	inner join notas using(codigo, numero)
-group by departamentos.nombre, departamentos.codigo
-order by materias desc;
+SELECT departamentos.nombre as departamento,
+	codigo,
+	COUNT(DISTINCT numero) AS materias,
+	COUNT(notas) AS notas
+FROM departamentos
+	INNER JOIN materias USING(codigo)
+	INNER JOIN notas USING(codigo, numero)
+GROUP BY departamentos.nombre, codigo
+ORDER BY materias DESC;

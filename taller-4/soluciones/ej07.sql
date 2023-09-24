@@ -1,2 +1,3 @@
-select max(nota) as nota from notas
-where codigo=75 and numero=15
+SELECT MAX(nota) AS nota
+FROM notas
+WHERE (codigo, numero) = (75, 15);

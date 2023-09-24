@@ -1,2 +1,3 @@
-select * from notas
-where (codigo, numero) <>  (75, 1);
+SELECT * 
+FROM notas
+WHERE (codigo, numero) <>  (75, 1);

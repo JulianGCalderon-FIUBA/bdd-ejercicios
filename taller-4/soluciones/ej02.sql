@@ -1,2 +1,2 @@
-select concat(codigo, '.', to_char(numero, 'fm00')) as codigo, nombre
-from materias;
+SELECT CONCAT(codigo, '.', TO_CHAR(numero, 'fm00')) AS codigo, nombre
+FROM materias;
