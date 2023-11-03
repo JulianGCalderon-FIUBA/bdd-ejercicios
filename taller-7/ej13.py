@@ -4,12 +4,12 @@ from ej00 import tweets, print_results
 pipeline = [
     {"$group": {
         "_id": "$user_id",
-        "max_rts": {"$max": "$retweet_count"}
+        "cantdidad_retweets": {"$sum": "$retweet_count"}
   	    }
     },
     {"$group": {
         "_id": None,
-        "maximo": {"$max": "$max_rts"}
+        "maximo": {"$max": "$cantdidad_retweets"}
         }
     }
 ]
