@@ -1,4 +1,4 @@
-from ej0 import tweets, print_results
+from ej00 import tweets, print_results
 
 query = {
     "lang": "es",
