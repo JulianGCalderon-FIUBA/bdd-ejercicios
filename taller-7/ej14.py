@@ -9,6 +9,7 @@ pipeline = [
         "cantidad_tweets": { "$sum": 1 }
         }
     },
+    { "$limit": 5 }
 ]
 result = tweets.aggregate(pipeline)
 
