@@ -5,7 +5,7 @@ pipeline = [
     {"$unwind": "$entities.hashtags"},
     {"$group": {
         "_id": "$entities.hashtags.text",
-        "cantidad": {"$sum": 1}
+        "cantidad": {"$count": {}}
   	}
     },
     {"$sort": {"cantidad": -1}},
