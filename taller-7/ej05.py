@@ -1,3 +1,4 @@
+import pymongo
 from ej00 import tweets, print_results
 
 query = {
@@ -5,9 +6,11 @@ query = {
         "$ne": None
     },
     "lang": "es",
-    "place.country": { "$regex": "^(argentina|brasil)", "$options": "i"}
+    "place.country": {
+        "$nin": ["Argentina", "Brasil"]
+    }
 }
 
-result = tweets.find(query, {"place": 1}).limit(2)
+result = tweets.find(query, {"place": 1}).limit(5)
 
 print_results(result)
