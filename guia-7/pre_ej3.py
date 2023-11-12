@@ -27,7 +27,3 @@ database = client.database
 students = database.students
 
 students.insert_many([randomStudent() for _ in range(1000)])
-
-peek = students.find(limit=10)
-for student in peek:
-    __import__("pprint").pprint(student)
