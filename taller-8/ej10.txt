@@ -1,0 +1,6 @@
+10. Obtenga el modelo, marca y año del auto más viejo de la base.
+
+MATCH (a:Vehicle)
+RETURN a.model, a.make, a.year
+ORDER BY a.year ASC
+LIMIT 1

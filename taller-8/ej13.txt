@@ -1,0 +1,11 @@
+13. Cuantas personas hay en la base? Cuantos tiene teléfono? Cuantos
+mail?
+
+MATCH (p:Person)
+RETURN count(p)
+
+MATCH (p:Person)-[:HAS_PHONE]-()
+RETURN count(p)
+
+MATCH (p:Person)-[:HAS_EMAIL]-()
+RETURN count(p)

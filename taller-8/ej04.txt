@@ -1,0 +1,8 @@
+4. Muestre el grafo de las locations en el área M30. Cuantos nodos hay?
+
+MATCH (l:Location)
+WHERE l.postcode STARTS WITH "M30"
+RETURN l
+
+MATCH (l:Location)-[:LOCATION_IN_AREA]->(a:Area {areaCode:"M30"})
+RETURN l

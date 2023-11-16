@@ -1,0 +1,8 @@
+11. ¿A qué distancia se encuentra el auto más viejo de Roger Brooks?
+
+MATCH (a:Vehicle)
+WITH min(a.year) as oldest_year
+MATCH r=shortestPath((oldest:Vehicle)-[*]-(roger:Person {name:"Roger", surname:"Brooks"}))
+WHERE oldest.year = oldest_year
+    AND roger.name = "Roger" AND roger.surname = "Brooks"
+return oldest, r

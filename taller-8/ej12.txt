@@ -1,0 +1,7 @@
+12. Devuelva el nombre y apellido de personas que conozcan más de 10
+personas.
+
+MATCH  (p:Person)-[r:KNOWS]->(q:Person)
+WITH p, count(r) as amistades
+WHERE amistades >= 10
+RETURN p, amistades

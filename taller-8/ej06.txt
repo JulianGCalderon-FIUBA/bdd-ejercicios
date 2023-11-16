@@ -1,0 +1,9 @@
+6. Muestre las personas que están a distancia 3 de Gordon Craig.
+
+MATCH rel=(p:Person)-[:KNOWS*]->(gordon:Person {surname:"Gordon", name:"Craig"})
+WHERE length(rel) = 3
+RETURN p
+
+MATCH rel=(p:Person)-[:KNOWS*3..3]->(gordon:Person)
+WHERE  gordon.surname = "Gordon" AND gordon.name = "Craig"
+RETURN p, rel

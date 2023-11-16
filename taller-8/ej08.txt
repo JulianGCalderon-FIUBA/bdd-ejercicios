@@ -1,0 +1,6 @@
+8. Muestre el camino más corto de Judith Moore a Richard Green.
+
+MATCH path = shortestPath(
+        (judith:Person {name: "Judith", surname: "Moore"})-[:KNOWS*]-
+            (richard:Person {name: "Richard", surname: "Green"}))
+RETURN path

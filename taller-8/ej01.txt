@@ -1,0 +1,8 @@
+1. Muestre en orden alfabético, los nombres de las primeras 10 personas
+apellidadas ‘Smith’.
+
+MATCH (p:Person)
+WHERE p.surname =~ "(?i)smith"
+RETURN p
+ORDER BY p.name, p.surname
+LIMIT 10

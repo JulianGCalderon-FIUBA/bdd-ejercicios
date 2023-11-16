@@ -1,0 +1,7 @@
+5. Muestre el grafo de todos que conocen a alguien que conoce a Gordon
+Craig.
+
+MATCH (p:Person)-[:KNOWS]->(common:Person),
+      (common)-[:KNOWS]->(gordon:Person)
+WHERE gordon.surname + gordon.name = "GordonCraig"
+RETURN p, common, gordon

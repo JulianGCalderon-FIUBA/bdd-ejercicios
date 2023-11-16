@@ -1,0 +1,7 @@
+7. Muestre las personas conocidas de Roger Brooks que no participaron
+en ningún crimen.
+
+MATCH (roger:Person)-[:KNOWS]->(p:Person)
+WHERE NOT (p)-[:INVOLVED_IN]->(:Crime) 
+    AND roger.surname = "Brooks" AND roger.name = "Roger"
+RETURN p
