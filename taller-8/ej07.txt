@@ -2,6 +2,6 @@
 en ningún crimen.
 
 MATCH (roger:Person)-[:KNOWS]->(p:Person)
-WHERE NOT (p)-[:INVOLVED_IN]->(:Crime) 
+WHERE NOT (p)-[:PARTY_TO]->(:Crime) 
     AND roger.surname = "Brooks" AND roger.name = "Roger"
 RETURN p

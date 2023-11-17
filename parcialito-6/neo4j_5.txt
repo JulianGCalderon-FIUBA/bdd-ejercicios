@@ -1,0 +1,6 @@
+Muestre la (o las) persona(s) que ha(n) realizado mas de 7 comunicaciones telefónicas.
+
+MATCH llamada=(p1:Person)-[:HAS_PHONE]->(t1:Phone)<-[:CALLED|CALLER]-(c:PhoneCall)-[:CALLER|CALLED]->(t2:Phone)<-[:HAS_PHONE]-(p2:Person)
+WITH p1 as persona, count(llamada) as cantidadLlamadas
+WHERE cantidadLlamadas > 7 
+RETURN persona.nhs_no, persona.name, persona.surname                                                                                                                                

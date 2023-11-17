@@ -1,0 +1,25 @@
+{'_id': 'ASSEFF',
+ 'avgRetweets': 0.0,
+ 'maxRetweets': 0,
+ 'minRetweets': 0,
+ 'users': [{'id': '257918119', 'name': 'em2356'}]}
+{'_id': 'Emotional',
+ 'avgRetweets': 1.0,
+ 'maxRetweets': 1,
+ 'minRetweets': 1,
+ 'users': [{'id': '75323125', 'name': 'ChinoRibalta'}]}
+{'_id': 'SEO',
+ 'avgRetweets': 0.0,
+ 'maxRetweets': 0,
+ 'minRetweets': 0,
+ 'users': [{'id': '95259739', 'name': 'EdwingSalas'}]}
+{'_id': 'mym',
+ 'avgRetweets': 0.0,
+ 'maxRetweets': 0,
+ 'minRetweets': 0,
+ 'users': [{'id': '1537110091', 'name': 'DCoreanos'}]}
+{'_id': 'rap',
+ 'avgRetweets': 2.0,
+ 'maxRetweets': 2,
+ 'minRetweets': 2,
+ 'users': [{'id': '521234902', 'name': 'jona_alayo'}]}
