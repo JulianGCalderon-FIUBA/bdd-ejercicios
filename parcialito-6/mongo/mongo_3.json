@@ -21,6 +21,29 @@
                        'time_zone': None,
                        'url': 'https://t.co/U9L7le2jMn',
                        'verified': False}}]}
+{'_id': '1143723098396663809',
+ 'replies': [],
+ 'tweet': {'created_at': '2019-06-26T03:30:10Z',
+           'text': '#River esa mancha no se borra nunca más',
+           'tweet_id': '1143723098396663809',
+           'user': {'created_at': 'Sat Jan 03 16:53:53 +0000 2015',
+                    'default_profile': False,
+                    'description': 'productor de seguros, dirigente de '
+                                   'deportivo laferrere',
+                    'favourites_count': 3362,
+                    'followers_count': 71,
+                    'friends_count': 203,
+                    'id_str': '2958695913',
+                    'lang': None,
+                    'listed_count': 0,
+                    'location': 'laferrere',
+                    'name': 'alejandro luongo',
+                    'protected': False,
+                    'screen_name': 'chueco022_el',
+                    'statuses_count': 484,
+                    'time_zone': None,
+                    'url': None,
+                    'verified': False}}}
 {'_id': '1143983713690312704',
  'replies': [{'created_at': '2019-06-26T21:10:35Z',
               'text': '@GatoHerrero Jajaja Toga celoso',
@@ -47,6 +70,194 @@
                        'time_zone': None,
                        'url': 'https://t.co/fgLnEhBhhA',
                        'verified': False}}]}
+{'_id': '1144010162853818369',
+ 'replies': [],
+ 'tweet': {'created_at': '2019-06-26T22:30:52Z',
+           'text': '#Día16 \n'
+                   'Conferencia de prensa de #Brasil y #Paraguay \n'
+                   'Como siempre por @directvsports\n'
+                   '🐸⚽👆😉\n'
+                   '#Fútbol #CopaAmerica #DIRECTVSports #soccer #ArenaDoGremio '
+                   '#Tite #Berizzo en Arena do Grêmio https://t.co/rgofchzCJ0',
+           'tweet_id': '1144010162853818369',
+           'user': {'created_at': 'Wed Jun 09 13:40:59 +0000 2010',
+                    'default_profile': False,
+                    'description': 'Periodista deportivo y relator de #Torneos '
+                                   '@DIRECTVSports y @TNTSportsLA\n'
+                                   'Instagram: ＺＡＰＰＯＮＩＬＥＡＮＤＲＯ.\n'
+                                   'Enamorado de @carolarien',
+                    'favourites_count': 18734,
+                    'followers_count': 55350,
+                    'friends_count': 1310,
+                    'id_str': '153798224',
+                    'lang': None,
+                    'listed_count': 170,
+                    'location': 'Capital Federal',
+                    'name': 'Leandro Zapponi',
+                    'protected': False,
+                    'screen_name': 'leandrozapponi',
+                    'statuses_count': 19494,
+                    'time_zone': None,
+                    'url': 'https://t.co/TgebXJUcU7',
+                    'verified': False}}}
+{'_id': '1143946827051544578',
+ 'replies': [{'created_at': '2019-06-26T19:06:01Z',
+              'text': '@cristianritondo @federicotaiano @Escobar_Muni '
+                      'Felicitaciones @federicotaiano @LeanRCosta',
+              'tweet_id': '1143958611070263297',
+              'user': {'created_at': 'Mon Sep 18 18:30:56 +0000 2017',
+                       'default_profile': True,
+                       'description': 'Dirección Nacional de Seguridad en '
+                                      'Espectáculos Futbolísticos.  Director '
+                                      'de #TribunaSegura en  la Provincia de '
+                                      'Buenos Aires',
+                       'favourites_count': 320,
+                       'followers_count': 83,
+                       'friends_count': 585,
+                       'id_str': '909847221490905089',
+                       'lang': None,
+                       'listed_count': 0,
+                       'location': 'Buenos Aires, Argentina',
+                       'name': 'Tomás Simón Padrós',
+                       'protected': False,
+                       'screen_name': 'tsimonpadros',
+                       'statuses_count': 110,
+                       'time_zone': None,
+                       'url': 'https://t.co/ISztfjf5vH',
+                       'verified': False}}]}
+{'_id': '1143897937128370176',
+ 'replies': [],
+ 'tweet': {'created_at': '2019-06-26T15:04:55Z',
+           'text': '@argentina Parte medico:\n'
+                   'Guido Pizarro\n'
+                   'Sobrecarga muscular ambas pantorrillas.\n'
+                   'Renzo Saravia\n'
+                   'Traumatismo cresta ilíaca. @radionihuil',
+           'tweet_id': '1143897937128370176',
+           'user': {'created_at': 'Mon Jan 07 04:05:01 +0000 2013',
+                    'default_profile': True,
+                    'description': 'Periodista Deportiva. Corresponsal Radio '
+                                   'Nihuil y Canal 7 MZA. (Grupo America) 4 '
+                                   'Mundiales FIFA, 2 JJ.OO, 6 Copa América, '
+                                   'Libertadores, FFem, Instagram Marirro1',
+                    'favourites_count': 24573,
+                    'followers_count': 2815,
+                    'friends_count': 1006,
+                    'id_str': '1067383080',
+                    'lang': None,
+                    'listed_count': 31,
+                    'location': 'Argentina',
+                    'name': 'Marirro Varela💚',
+                    'protected': False,
+                    'screen_name': 'marirrovarela',
+                    'statuses_count': 15699,
+                    'time_zone': None,
+                    'url': None,
+                    'verified': False}}}
+{'_id': '1144023205897822210',
+ 'replies': [{'created_at': '2019-06-26T23:31:43Z',
+              'text': '@Chapa_Olmedo Atlético Mendoza, bajo la presidencia de '
+                      'Eduardo Bauzá.',
+              'tweet_id': '1144025478539423750',
+              'user': {'created_at': 'Sun May 30 14:15:33 +0000 2010',
+                       'default_profile': False,
+                       'description': 'Periodista en @mdzonline y '
+                                      '@FoxSportsArg. '
+                                      '🇦🇷🇦🇹🇧🇸🇧🇷🇨🇱🇨🇺🇨🇷🇪🇸🇸🇰🇺🇸🇵🇾🇫🇷🇭🇳🇹🇨🇯🇲🇻🇦🇮🇹🏴\U000e0067\U000e0062\U000e0065\U000e006e\U000e0067\U000e007f🇷🇺🇲🇽🇵🇦🇵🇷🇩🇴🇺🇾🇰🇾',
+                       'favourites_count': 4963,
+                       'followers_count': 1452,
+                       'friends_count': 958,
+                       'id_str': '149891247',
+                       'lang': None,
+                       'listed_count': 25,
+                       'location': 'Mendoza-Argentina',
+                       'name': 'Ariel Fernández Lavilla 🇦🇷',
+                       'protected': False,
+                       'screen_name': 'afernandez82',
+                       'statuses_count': 9678,
+                       'time_zone': None,
+                       'url': 'https://t.co/U9L7le2jMn',
+                       'verified': False}}]}
+{'_id': '1143921858263302149',
+ 'replies': [],
+ 'tweet': {'created_at': '2019-06-26T16:39:58Z',
+           'text': 'Me describiste a la perfección ... casi como si fueras mi '
+                   'viejo \n'
+                   'Ahora pregunto ? Sino que gracias tiene vivir ?👇 '
+                   'https://t.co/tL99AbdkLe',
+           'tweet_id': '1143921858263302149',
+           'user': {'created_at': 'Tue May 03 02:33:31 +0000 2011',
+                    'default_profile': True,
+                    'description': 'Relator de Radio Mitre, Conductor del '
+                                   'Súper Mitre Deportivo',
+                    'favourites_count': 361,
+                    'followers_count': 54903,
+                    'friends_count': 129,
+                    'id_str': '292085679',
+                    'lang': None,
+                    'listed_count': 410,
+                    'location': 'Argentina',
+                    'name': 'Gabriel Anello',
+                    'protected': False,
+                    'screen_name': 'anellogaby',
+                    'statuses_count': 70136,
+                    'time_zone': None,
+                    'url': 'https://t.co/C740pnWJP9',
+                    'verified': False}}}
+{'_id': '1143713209997832192',
+ 'replies': [],
+ 'tweet': {'created_at': '2019-06-26T02:50:53Z',
+           'text': 'Ja namoraram alguém de outro estado ?\n'
+                   'Mano, pior besteira, quando termina, termina mesmo. Nunca '
+                   "se encontram por 'acaso' em uma balada ou na padaria.\n"
+                   'Não sei se isso é bom, ou ruim.',
+           'tweet_id': '1143713209997832192',
+           'user': {'created_at': 'Sat Jun 06 15:17:07 +0000 2015',
+                    'default_profile': True,
+                    'description': '₩!ll!4m N!comed€s, {£l barbero}\n'
+                                   'Portugués🇧🇷 y español🇦🇷\n'
+                                   'Papa de un niño ❤\n'
+                                   'insta//nicomedes82\n'
+                                   'Atualmente em BH-MG',
+                    'favourites_count': 10069,
+                    'followers_count': 14303,
+                    'friends_count': 1651,
+                    'id_str': '3310711697',
+                    'lang': None,
+                    'listed_count': 37,
+                    'location': 'Méier, Rio de Janeiro',
+                    'name': 'El barbero💈🌎✂️',
+                    'protected': False,
+                    'screen_name': 'Nicomedes82',
+                    'statuses_count': 18536,
+                    'time_zone': None,
+                    'url': None,
+                    'verified': False}}}
+{'_id': '1143939436029366272',
+ 'replies': [],
+ 'tweet': {'created_at': '2019-06-26T17:49:49Z',
+           'text': '#TelefeCordobaEnLaCopa #EmbajadoresEnLaCopa Desafío '
+                   'embajador: alfajores cordobeses #Chammas a cambio de '
+                   'Caipirinha🇧🇷 https://t.co/BCHNsbFlbb',
+           'tweet_id': '1143939436029366272',
+           'user': {'created_at': 'Thu Apr 08 00:05:10 +0000 2010',
+                    'default_profile': False,
+                    'description': 'Nuestra esencia permanece intacta. Somos '
+                                   '#TelefeCordoba, sigamos creciendo juntos.',
+                    'favourites_count': 756,
+                    'followers_count': 306820,
+                    'friends_count': 89,
+                    'id_str': '130673615',
+                    'lang': None,
+                    'listed_count': 425,
+                    'location': 'Córdoba, Argentina',
+                    'name': 'Telefe Córdoba',
+                    'protected': False,
+                    'screen_name': 'telefecordoba',
+                    'statuses_count': 27660,
+                    'time_zone': None,
+                    'url': 'https://t.co/B92LJr7xzb',
+                    'verified': True}}}
 {'_id': '1143737708180901888',
  'replies': [{'created_at': '2019-06-26T04:52:08Z',
               'text': '@tiodenis O que foi?',
@@ -69,60 +280,6 @@
                        'protected': False,
                        'screen_name': 'bonacorsa',
                        'statuses_count': 19347,
-                       'time_zone': None,
-                       'url': None,
-                       'verified': False}}]}
-{'_id': '1143939436029366272',
- 'replies': [{'created_at': '2019-06-26T17:49:49Z',
-              'text': '#TelefeCordobaEnLaCopa #EmbajadoresEnLaCopa Desafío '
-                      'embajador: alfajores cordobeses #Chammas a cambio de '
-                      'Caipirinha🇧🇷 https://t.co/BCHNsbFlbb',
-              'tweet_id': '1143939436029366272',
-              'user': {'created_at': 'Thu Apr 08 00:05:10 +0000 2010',
-                       'default_profile': False,
-                       'description': 'Nuestra esencia permanece intacta. '
-                                      'Somos #TelefeCordoba, sigamos creciendo '
-                                      'juntos.',
-                       'favourites_count': 756,
-                       'followers_count': 306820,
-                       'friends_count': 89,
-                       'id_str': '130673615',
-                       'lang': None,
-                       'listed_count': 425,
-                       'location': 'Córdoba, Argentina',
-                       'name': 'Telefe Córdoba',
-                       'protected': False,
-                       'screen_name': 'telefecordoba',
-                       'statuses_count': 27660,
-                       'time_zone': None,
-                       'url': 'https://t.co/B92LJr7xzb',
-                       'verified': True}}]}
-{'_id': '1143713209997832192',
- 'replies': [{'created_at': '2019-06-26T02:50:53Z',
-              'text': 'Ja namoraram alguém de outro estado ?\n'
-                      'Mano, pior besteira, quando termina, termina mesmo. '
-                      "Nunca se encontram por 'acaso' em uma balada ou na "
-                      'padaria.\n'
-                      'Não sei se isso é bom, ou ruim.',
-              'tweet_id': '1143713209997832192',
-              'user': {'created_at': 'Sat Jun 06 15:17:07 +0000 2015',
-                       'default_profile': True,
-                       'description': '₩!ll!4m N!comed€s, {£l barbero}\n'
-                                      'Portugués🇧🇷 y español🇦🇷\n'
-                                      'Papa de un niño ❤\n'
-                                      'insta//nicomedes82\n'
-                                      'Atualmente em BH-MG',
-                       'favourites_count': 10069,
-                       'followers_count': 14303,
-                       'friends_count': 1651,
-                       'id_str': '3310711697',
-                       'lang': None,
-                       'listed_count': 37,
-                       'location': 'Méier, Rio de Janeiro',
-                       'name': 'El barbero💈🌎✂️',
-                       'protected': False,
-                       'screen_name': 'Nicomedes82',
-                       'statuses_count': 18536,
                        'time_zone': None,
                        'url': None,
                        'verified': False}}]}

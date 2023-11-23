@@ -1,5 +1,4 @@
-Investigue los crímenes cometidos en 165 Laurel Street, muestre las personas que
-participaron de algun crimen y si tienen relacion entre ellas muéstrela
+Investigue los crímenes cometidos en 165 Laurel Street, muestre las personas que participaron de algun crimen y si tienen relacion entre ellas muéstrela
 
 MATCH (p:Person)-[:PARTY_TO]-(c:Crime)-[:OCCURRED_AT]->(l:Location)
 WHERE l.address = "165 Laurel Street"

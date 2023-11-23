@@ -5,4 +5,4 @@ LABEL description="Postgres Image for BDD-FIUBA"
 LABEL version="1.0"
 
 COPY dataset/* /dataset/
-COPY init/* /docker-entrypoint-initdb-d/
+COPY init/* /docker-entrypoint-initdb.d/
