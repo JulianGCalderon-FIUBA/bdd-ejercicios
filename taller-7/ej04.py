@@ -1,11 +1,6 @@
-from ej00 import tweets, print_results
+from ej00 import print_results, tweets
 
-query = {
-    "lang": "es",
-    "retweet_count": {
-        "$gt": 200000
-    }
-}
+query = {"lang": "es", "retweet_count": {"$gt": 200000}}
 
 result = tweets.find(query).limit(10)
 

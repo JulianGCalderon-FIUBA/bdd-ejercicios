@@ -1,15 +1,15 @@
+from ej00 import print_results, tweets
 
-from ej00 import tweets, print_results
-
-pipeline = [	
+pipeline = [
     {"$sort": {"retweet_count": -1}},
     {"$limit": 10},
-    {"$project": {
-        "retweet_count": 1,
-        "user": 1,
+    {
+        "$project": {
+            "retweet_count": 1,
+            "user": 1,
         }
     },
-    {"$sort": {"retweet_count": 1}}
+    {"$sort": {"retweet_count": 1}},
 ]
 
 result = tweets.aggregate(pipeline)
