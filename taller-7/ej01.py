@@ -1,8 +1,6 @@
-from ej00 import tweets, print_results
+from ej00 import print_results, tweets
 
-query = {
-    "user_id":  "818839458"
-}
+query = {"user_id": "818839458"}
 
 result = tweets.find(query).limit(10)
 
